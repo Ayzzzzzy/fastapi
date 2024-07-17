@@ -7,12 +7,12 @@ app = FastAPI()
 
 # Naver TalkTalk API configuration
 TALKTALK_API_URL = "https://gw.talk.naver.com/chatbot/v1/event"
-TALKTALK_API_TOKEN = "/ROplw+KSweSmr4cxGol"
+TALKTALK_API_TOKEN = "a/LS3LgzRYKGgmD9f9aV"
 
 # Sendbird API configuration
-SENDBIRD_API_URL = "https://api-5237C2C5-10EC-4503-8252-5660D788B433.sendbird.com/v3"
-SENDBIRD_API_TOKEN = "fa184516a0c6f9ef9b85a7a8f28b93f6f24b7cdf"
-BOT_USER_ID = "XM3bHWtOOFKkE7DklvZql"
+SENDBIRD_API_URL = "https://api-77AECD77-A79A-4DFE-81DA-A52E4FA85DB4.sendbird.com/v3"
+SENDBIRD_API_TOKEN = "dfe498ab9ec28fb0dc6a2cb3a4d2046a0bc3361e"
+BOT_USER_ID = "project1_chatbot"
 
 # In-memory cache for user existence
 user_cache = set()
