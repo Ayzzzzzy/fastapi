@@ -2,6 +2,7 @@ from fastapi import FastAPI, Request
 from pydantic import BaseModel
 import httpx
 import uvicorn
+import os
 
 app = FastAPI()
 
