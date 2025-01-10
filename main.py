@@ -13,7 +13,7 @@ TALKTALK_API_TOKEN = os.environ.get('TALKTALK_API_TOKEN')
 # Sendbird API configuration
 SENDBIRD_API_URL = os.environ.get('SENDBIRD_API_URL')
 SENDBIRD_API_TOKEN = os.environ.get('SENDBIRD_API_TOKEN')
-BOT_USER_ID = "_Reqk5I4ElqLuWG_-Ik-k"
+BOT_USER_ID = os.environ.get('BOT_USER_ID')
 
 # In-memory cache for user existence
 user_cache = set()
